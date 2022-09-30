@@ -18,6 +18,7 @@ table {
     padding: 40px 30px 40px 40px;
     margin: auto;
     height: 500px; 
+    margin-top: 50px;
 }
 
 .navbar {
@@ -52,55 +53,9 @@ li a:hover {
     background-color: black;
 }
 
-
-.dropdown {
-    color: white;
-    font-size:16px;
-    cursor: pointer;
-    margin: 5px;
-    padding: 12px 8px 5px 8px;
-    background-color: inherit;
-    font-family: inherit;
-    
-    height: 50%;
-    text-align: center;
-    border: solid 1px black;
-
-}
-
-#dropdown-button {
-    border: none;
-    color:white;
-    cursor: pointer;
-    margin: 0px 0px 0px -5px;
-    padding: 12px 8px 5px 8px;
-    position: relative;
-    height: 50%;
-    width: 10%;
-    background-color: none;
-    z-index: 1;
-}
-
 #navbar a:hover, .dropdown:hover {
     background-color: black;
 
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    overflow: auto;
-    min-width: 100%;
-    background-color: none;
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: white;
-    display: block;
-    padding: 12px 8px 5px 8px;
-    text-decoration: none;
-    text-align: center;
 }
 
 .dropdown-content a:hover {
@@ -111,7 +66,6 @@ li a:hover {
 .dropdown:hover .dropdown-content{
     display: block;
 }
-
 
 
 h1 {
@@ -162,7 +116,7 @@ h4 {
     margin: auto; 
     display: block;
     text-align: center;
-    margin-top: 600px;
+    margin-top: 100px;
     color: white;
     font-size: 28px;
     border: solid 1px white;
@@ -203,5 +157,9 @@ footer {
 
 input {
     font-size: 20px;
+}
+ 
+#blacktext {
+    color: black;
 }
 
