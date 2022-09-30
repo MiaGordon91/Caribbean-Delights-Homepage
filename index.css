@@ -10,68 +10,14 @@ body {
     box-sizing: border-box;
 } 
 
-#recipe1 {
-position: absolute;
-background-color: white;
-margin: auto;
-display: block;
-margin-top: 70px;
-margin-left: 10%;
-padding: 40px 30px 40px 40px;
-width: 400px;
-height: 500px;
-box-sizing: border-box;
-border: solid;
-border-color: #ffd11a;
-font-size: 20px;
-}
-
-#recipe2 {
-position: absolute;
-background-color: white;
-margin: auto;
-display: block;
-margin-top: 70px;
-margin-left: 30%;
-padding: 40px 30px 40px 20px;
-width: 400px;
-height: 500px;
-box-sizing: border-box;
-border: solid;
-border-color:#ffd11a;
-font-size: 20px;
-}
-
-#recipe3 {
-position: absolute;
-background-color: white;
-margin: auto;
-display: block;
-margin-top: 70px;
-margin-left: 50%;
-padding: 40px 30px 40px 20px;
-width: 400px;
-height: 500px;
-box-sizing: border-box;
-border: solid;
-border-color:#ffd11a;
-font-size: 20px;
-}
-
-#recipe4 {
-position: absolute;
-background-color: white;
-margin: auto;
-display: block;
-margin-top: 70px;
-margin-left: 70%;
-padding: 40px 30px 20px 20px;
-width: 400px;
-height: 500px;
-box-sizing: border-box;
-border: solid;
-border-color: #ffd11a;
-font-size: 20px;
+table {
+    background-color: white;
+    border-color: #ffd11a;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 40px 30px 40px 40px;
+    margin: auto;
+    height: 500px; 
 }
 
 .navbar {
